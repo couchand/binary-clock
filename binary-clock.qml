@@ -34,9 +34,7 @@ MainView {
             
             Digit {
                 id: label
-                objectName: "label"
-                
-                text: i18n.tr("Hello..")
+                color: "red"
             }
         }
     }

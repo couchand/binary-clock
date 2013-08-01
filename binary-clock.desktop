@@ -2,7 +2,7 @@
 Name=binary-clock
 Comment=A binary clock for your desktop
 Exec=/usr/bin/qmlscene $@ /usr/share/binary-clock/binary-clock.qml
-Icon=qmlscene
+Icon=/usr/share/binary-clock/binary-clock64.png
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true

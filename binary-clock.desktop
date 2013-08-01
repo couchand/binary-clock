@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=binary-clock
-Comment=My project description
+Comment=A binary clock for your desktop
 Exec=/usr/bin/qmlscene $@ /usr/share/binary-clock/binary-clock.qml
 Icon=qmlscene
 Terminal=false

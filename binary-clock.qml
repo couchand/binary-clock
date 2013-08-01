@@ -23,8 +23,8 @@ MainView {
     height: units.gu(75)
     
     Page {
-        title: i18n.tr("Simple")
-        
+        title: i18n.tr("Time")
+
         Column {
             spacing: units.gu(1)
             anchors {

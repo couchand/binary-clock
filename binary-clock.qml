@@ -38,17 +38,6 @@ MainView {
                 
                 text: i18n.tr("Hello..")
             }
-            
-            Button {
-                objectName: "button"
-                width: parent.width
-                
-                text: i18n.tr("Tap me!")
-                
-                onClicked: {
-                    label.text = i18n.tr("..world!")
-                }
-            }
         }
     }
 }

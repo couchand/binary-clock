@@ -25,32 +25,15 @@ MainView {
     Page {
         title: i18n.tr("Time")
 
-        Column {
+        Row {
             spacing: units.gu(1)
             anchors {
                 margins: units.gu(2)
                 fill: parent
             }
             
-            Digit {
-                id: hour1
-                color: "grey"
-            }
-            Digit {
-                id: hour2
-                color: "grey"
-            }
-            Digit {
-                id: hour4
-                color: "grey"
-            }
-            Digit {
-                id: hour8
-                color: "grey"
-            }
-            Digit {
-                id: hour16
-                color: "red"
+            Hours {
+                id: hours
             }
         }
     }

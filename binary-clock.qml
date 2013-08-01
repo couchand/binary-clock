@@ -32,7 +32,7 @@ MainView {
                 fill: parent
             }
             
-            HelloComponent {
+            Digit {
                 id: label
                 objectName: "label"
                 

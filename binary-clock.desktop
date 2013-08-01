@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=binary-clock
+Comment=My project description
+Exec=/usr/bin/qmlscene $@ /usr/share/binary-clock/binary-clock.qml
+Icon=qmlscene
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

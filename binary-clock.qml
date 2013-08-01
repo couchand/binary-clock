@@ -38,6 +38,9 @@ MainView {
             Minutes {
                 id: minutes
             }
+            Seconds {
+                id: seconds
+            }
         }
     }
 }

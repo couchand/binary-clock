@@ -9,22 +9,27 @@ Column {
     
     Digit {
         id: hour1
-        color: "grey"
+        unit: "hours"
+        bitmask: 1
     }
     Digit {
         id: hour2
-        color: "grey"
+        unit: "hours"
+        bitmask: 2
     }
     Digit {
         id: hour4
-        color: "grey"
+        unit: "hours"
+        bitmask: 4
     }
     Digit {
         id: hour8
-        color: "grey"
+        unit: "hours"
+        bitmask: 8
     }
     Digit {
         id: hour16
-        color: "red"
+        unit: "hours"
+        bitmask: 16
     }
 }

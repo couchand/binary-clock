@@ -9,26 +9,32 @@ Column {
     
     Digit {
         id: digit1
-        color: "grey"
+        unit: "minutes"
+        bitmask: 1
     }
     Digit {
         id: digit2
-        color: "grey"
+        unit: "minutes"
+        bitmask: 2
     }
     Digit {
         id: digit4
-        color: "red"
+        unit: "minutes"
+        bitmask: 4
     }
     Digit {
         id: digit8
-        color: "grey"
+        unit: "minutes"
+        bitmask: 8
     }
     Digit {
         id: digit16
-        color: "red"
+        unit: "minutes"
+        bitmask: 16
     }
     Digit {
         id: digit32
-        color: "grey"
+        unit: "minutes"
+        bitmask: 32
     }
 }

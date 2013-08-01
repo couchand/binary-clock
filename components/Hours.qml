@@ -6,6 +6,14 @@ Column {
     anchors {
         margins: units.gu(2)
     }
+
+    function refresh( now ) {
+        hour1.refresh( now );
+        hour2.refresh( now );
+        hour4.refresh( now );
+        hour8.refresh( now );
+        hour16.refresh( now );
+    }
     
     Digit {
         id: hour1

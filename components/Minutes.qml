@@ -6,6 +6,15 @@ Column {
     anchors {
         margins: units.gu(2)
     }
+
+    function refresh( now ) {
+        digit1.refresh( now );
+        digit2.refresh( now );
+        digit4.refresh( now );
+        digit8.refresh( now );
+        digit16.refresh( now );
+        digit32.refresh( now );
+    }
     
     Digit {
         id: digit1

@@ -8,11 +8,15 @@ UbuntuShape {
     property int bitmask: 0
     property string unit: ""
 
-    color:  unit === "seconds" ?
-                (new Date().getSeconds() & bitmask ? 'red' : 'grey') :
-            unit === "minutes" ?
-                (new Date().getMinutes() & bitmask ? 'red' : 'grey') :
-            unit === "hours" ?
-                (new Date().getHours() & bitmask ? 'red' : 'grey') :
-            'grey';
+    color: 'grey'
+
+    function refresh( now ) {
+        color = unit === "seconds" ?
+            (new Date().getSeconds() & bitmask ? 'red' : 'grey') :
+        unit === "minutes" ?
+            (new Date().getMinutes() & bitmask ? 'red' : 'grey') :
+        unit === "hours" ?
+            (new Date().getHours() & bitmask ? 'red' : 'grey') :
+        'grey';
+    }
 }

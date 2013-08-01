@@ -42,5 +42,15 @@ MainView {
                 id: seconds
             }
         }
+
+        Timer {
+            interval: 100; running: true; repeat: true;
+            onTriggered: {
+                var now = new Date();
+                hours.refresh( now );
+                minutes.refresh( now );
+                seconds.refresh( now );
+            }
+        }
     }
 }

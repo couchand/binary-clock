@@ -33,7 +33,23 @@ MainView {
             }
             
             Digit {
-                id: label
+                id: hour1
+                color: "grey"
+            }
+            Digit {
+                id: hour2
+                color: "grey"
+            }
+            Digit {
+                id: hour4
+                color: "grey"
+            }
+            Digit {
+                id: hour8
+                color: "grey"
+            }
+            Digit {
+                id: hour16
                 color: "red"
             }
         }
